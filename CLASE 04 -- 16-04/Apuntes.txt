@@ -1,0 +1,21 @@
+1) EN app.module.ts hay que importar HTTPClientModule from @angular/common/http'.
+
+2) Creo el servicio, ng g service services/http.
+
+
+3) Importo el modulo dentro del servicio (copio lo mismo que app.module.ts) pero sin el "Module".
+"import { HttpClient} from "@angular/common/http";"
+
+
+4) Lo inyectamos en el constructor, ponemos private http : HttpClient.
+
+
+
+Componentes presentacionales y contenedores. Inteligentes y tontos.
+
+
+
+// ESTILOS: 
+Angular Material.
+PRIME NG
+Angular bootstrap
