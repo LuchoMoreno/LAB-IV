@@ -1,0 +1,4 @@
+npm install ng2-smart-table
+
+npm i rxjs-compat
+npm i @akveo/ng2-completer
